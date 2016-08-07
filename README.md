@@ -45,22 +45,24 @@ function myDecorator(Component, option1, option2) {
 **3. Use it in your code in any of the following ways.**
 
 ```js
+import myDecorator from './myDecorator';
+
 /* As decorator */
 
 // Simply apply it
 @myDecorator
-class {}
+class Component {}
 
 // Call it without options
 @myDecorator()
-class
+class Component {}
 
 // Call it with options
 @myDecorator(option1, option2)
-class
+class Component {}
 
 
-/* As HoC */
+/* As HoC. Works with both classes and functions */
 
 // Call it with Component
 myDecorator(Component)
