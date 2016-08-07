@@ -3,8 +3,6 @@
 [![npm](https://img.shields.io/npm/v/decorate-with-options.svg?style=flat-square)](https://www.npmjs.com/package/eslint-config-sensible)
 [![License](https://img.shields.io/npm/l/decorate-with-options.svg?style=flat-square)](https://github.com/le0nik/eslint-config-sensible/blob/master/LICENSE)
 
-[![devDependency Status](https://img.shields.io/david/dev/le0nik/decorate-with-options.svg?style=flat-square)](https://david-dm.org/le0nik/eslint-config-sensible#info=devDependencies)
-
 ## Installation
 
 ```sh
