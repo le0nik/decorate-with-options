@@ -1,6 +1,6 @@
 {
   "name": "decorate-with-options",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create decorator with options and universal signature",
   "main": "lib/index.js",
   "scripts": {
