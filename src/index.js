@@ -31,7 +31,6 @@ module.exports = function decorateWithOptions(decorator) {
       return decorator(ClassOrFunction, ...options);
     }
 
-
     /**
      * If used as:
      * @decorator()
