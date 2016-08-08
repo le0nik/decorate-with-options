@@ -1,7 +1,7 @@
 # decorate-with-options
 
 [![npm](https://img.shields.io/npm/v/decorate-with-options.svg?style=flat-square)](https://www.npmjs.com/package/decorate-with-options)
-[![License](https://img.shields.io/npm/l/decorate-with-options.svg?style=flat-square)](https://github.com/le0nik/decorate-with-options/blob/master/LICENSE)
+[![License](https://img.shields.io/npm/l/decorate-with-options.svg?style=flat-square)](https://github.com/le0nik/decorate-with-options/blob/master/LICENSE.md)
 [![codecov](https://img.shields.io/codecov/c/github/le0nik/decorate-with-options.svg?style=flat-square)](https://codecov.io/gh/le0nik/decorate-with-options)
 
 ## Installation
@@ -99,5 +99,5 @@ myDecorator(someFunction)(Component);
 
 ## License
 
-[MIT License](https://github.com/le0nik/decorate-with-options/blob/master/LICENSE)
+[MIT License](https://github.com/le0nik/decorate-with-options/blob/master/LICENSE.md)
 
