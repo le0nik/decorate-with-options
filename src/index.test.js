@@ -50,6 +50,7 @@ test('Decorator function, created with decorateWithOptions(originalDecorator)', 
     const decorator = decorateWithOptions(originalDecorator);
 
     class Class {}
+
     const DecoratedClass = decorator(Class);
 
     t.equal(originalDecorator.calledOnce, true, 'should result in one call to original decorator');
@@ -68,8 +69,8 @@ test('Decorator function, created with decorateWithOptions(originalDecorator)', 
     const decorator = decorateWithOptions(originalDecorator);
 
     class Class {}
-    const options = { foo: 'bar' };
 
+    const options = { foo: 'bar' };
     const DecoratedClass = decorator(Class, options);
 
     t.equal(originalDecorator.calledOnce, true, 'should result in a call to original decorator');
@@ -88,9 +89,9 @@ test('Decorator function, created with decorateWithOptions(originalDecorator)', 
     const decorator = decorateWithOptions(originalDecorator);
 
     class Class {}
+
     const option1 = 'foo';
     const option2 = { bar: 'baz' };
-
     const DecoratedClass = decorator(Class, option1, option2);
 
     t.equal(originalDecorator.calledOnce, true, 'should result in a call to original decorator');
@@ -109,8 +110,8 @@ test('Decorator function, created with decorateWithOptions(originalDecorator)', 
     const decorator = decorateWithOptions(originalDecorator);
 
     class Class {}
-    const options = { foo: 'bar' };
 
+    const options = { foo: 'bar' };
     const DecoratedClass = decorator(options, Class);
 
     t.equal(originalDecorator.calledOnce, true, 'should result in one call to original decorator');
@@ -129,9 +130,9 @@ test('Decorator function, created with decorateWithOptions(originalDecorator)', 
     const decorator = decorateWithOptions(originalDecorator);
 
     class Class {}
+
     const option1 = 'foo';
     const option2 = { bar: 'baz' };
-
     const DecoratedClass = decorator(option1, option2, Class);
 
     t.equal(originalDecorator.calledOnce, true, 'should result in one call to original decorator');
@@ -208,9 +209,9 @@ test('Decorator function, created with decorateWithOptions(originalDecorator)', 
     const originalDecorator = createDecorator();
     const decorator = decorateWithOptions(originalDecorator);
 
-    const options = { foo: 'bar' };
     class Class {}
 
+    const options = { foo: 'bar' };
     const DecoratedClass = decorator(options)(Class);
 
     t.equal(originalDecorator.calledOnce, true, 'should result in one call to original decorator');
@@ -228,10 +229,10 @@ test('Decorator function, created with decorateWithOptions(originalDecorator)', 
     const originalDecorator = createDecorator();
     const decorator = decorateWithOptions(originalDecorator);
 
-    const option1 = 'foo';
-    const option2 = { bar: 'baz' };
     class Class {}
 
+    const option1 = 'foo';
+    const option2 = { bar: 'baz' };
     const DecoratedClass = decorator(option1, option2)(Class);
 
     t.equal(originalDecorator.calledOnce, true, 'should result in one call to original decorator');
